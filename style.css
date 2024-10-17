@@ -1,15 +1,22 @@
 body{
-background-color:green;
+background-color:rgba(58, 238, 58, 0.411);
+font-family: Georgia, 'Times New Roman', Times, serif;
 }
 footer{
-    background-color:gold
+    background-color:rgba(255, 217, 0, 0.548);
     color:black;
     position: fixed;
-    bottom: ;
+    bottom: 0;
     width: 100%;
 }
 footer p {
     text-align: center;
     font-size: 0.6rem;
     margin: 0.5rem;
+}
+#container{
+    display: flex;
+}
+.cartao{
+    margin: 1rem 1rem;
 }
